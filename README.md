@@ -1,10 +1,9 @@
-# Gulshan-<!DOCTYPE html>
-<html lang="hi">
+ lang="hi">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title> DESI SNACK's| Mobile Friendly</title>
-  <meta name="description" content="मोबाइल से बनी एक तेज़, responsive और modern वेबसाइट का टेम्पलेट।" />
+  <meta name="description" content= "hello everyone , welcome to my website " />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -110,7 +109,7 @@
     </div>
   </header>
 
-  <!-- Mobile drawer -->
+  <!-- Mobile drawer --> +918521412902
   <aside id="drawer" class="drawer" aria-hidden="true">
     <button class="close btn" onclick="toggleDrawer(false)">✕ बंद</button>
     <a href="#features" onclick="toggleDrawer(false)">सेवाएँ</a>
@@ -121,9 +120,9 @@
 
   <main id="home" class="container">
     <section class="hero">
-      <span class="pill">🚀 मोबाइल से बनी Responsive वेबसाइट</span>
-      <h1>अपना बिज़नेस Online लाएँ — तेज़, साफ़ और मॉडर्न डिज़ाइन</h1>
-      <p class="lead">ये टेम्पलेट एकदम रेडी‑टू‑यूज़ है। बस नाम/लोगो, टेक्स्ट और इमेज बदलें। कोड पूरी तरह मोबाइल‑फ्रेंडली है और किसी भी मुफ्त होस्टिंग (Netlify, GitHub Pages) पर चल जाएगा।</p>
+      <span class="pill"> आपका स्वागत है मेरी इस दुनिया में। </span>
+      <h1>अगर आप स्वादिष्ट स्नैक्स खाना चाहते हैं। अभी ऑर्डर करें.</h1>
+      <p class="lead">yhan apko achi aur sudh और स्वाद से भरपुर snaks मिलेंगे.</p>
       <div class="hero-cta">
         <a class="btn primary" href="#contact">कॉल / संदेश भेजें</a>
         <a class="btn" href="#features">हम क्या करते हैं</a>
@@ -147,14 +146,14 @@
         <article class="card" role="listitem">
           <div class="icon" aria-hidden="true">🛒</div>
           <h3>लैंडिंग पेज</h3>
-          <p>एक पेज में ऑफर, टेस्टिमोनियल और CTA के साथ कन्‍वर्ज़न‑फोकस्ड डिज़ाइन।</p>
+          <p> Order now</p>
         </article>
       </div>
     </section>
 
     <section id="work" class="section">
       <h2>नमूना काम</h2>
-      <p class="muted">यहाँ अपने प्रोजेक्ट या प्रोडक्ट की तस्वीरें लगाएँ।</p>
+      <p class="muted">Aapka स्वास्थ्य हमारी पहचान</p>
       <div class="showcase">
         <figure class="shot"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop" alt="Project screenshot 1"></figure>
         <figure class="shot"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1600&auto=format&fit=crop" alt="Project screenshot 2"></figure>
@@ -175,7 +174,7 @@
 
   <DESI SNACK'S>
     <div class="container">
-      <small>© <span id="y"></span> आपकी कम्पनी का नाम. सभी अधिकार सुरक्षित।</small>
+      <small>© <span id="y"></span> Apka health hi sab kuch h .. इसलिए खाएं देसी स्नैक्स के शुद्ध उत्पाद। </small>
     </div>
   </DESI SNACK'S>
 
@@ -190,9 +189,9 @@
     // Simple contact via WhatsApp (falls back to mailto if no phone)
     function sendMessage(e){
       e.preventDefault();
-      const name = document.getElementById('name').value.trim();
-      const phone = document.getElementById('phone').value.trim();
-      const msg = document.getElementById('msg').value.trim();
+      const name = Gulshan document.getElementById('name').value.trim();
+      const phone = +918521412902 document.getElementById('phone').value.trim();
+      const msg = @_kohinoor407 #document.getElementById('msg').value.trim();
       const text = encodeURIComponent(`नमस्ते, मेरा नाम ${GULSHAN} है. ${msg}`);
       if(phone){
         const digits = phone.replace(/\D/g,'');
