@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>मेरी वेबसाइट | Mobile Friendly</title>
+  <title> DESI SNACK's| Mobile Friendly</title>
   <meta name="description" content="मोबाइल से बनी एक तेज़, responsive और modern वेबसाइट का टेम्पलेट।" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,7 +64,7 @@
     .shot{grid-column:span 6;border-radius:18px;overflow:hidden;border:1px solid rgba(255,255,255,.06);background:#0a1323}
     .shot img{aspect-ratio:16/10;object-fit:cover}
 
-    /* Contact */
+    /* Contact */ +918521412902
     form{display:grid;gap:12px;grid-template-columns:repeat(12,1fr)}
     .field{grid-column:span 6;display:grid;gap:6px}
     .field.full{grid-column:span 12}
@@ -98,7 +98,7 @@
     <div class="container nav">
       <a class="brand" href="#home">
         <div class="logo" aria-hidden="true">⚡</div>
-        <span>मेरी वेबसाइट</span>
+        <span>Desi snack's</span>
       </a>
       <nav class="menu" aria-label="Primary">
         <a href="#features">सेवाएँ</a>
@@ -173,11 +173,11 @@
     </section>
   </main>
 
-  <footer>
+  <DESI SNACK'S>
     <div class="container">
       <small>© <span id="y"></span> आपकी कम्पनी का नाम. सभी अधिकार सुरक्षित।</small>
     </div>
-  </footer>
+  </DESI SNACK'S>
 
   <script>
     // Mobile drawer
@@ -193,7 +193,7 @@
       const name = document.getElementById('name').value.trim();
       const phone = document.getElementById('phone').value.trim();
       const msg = document.getElementById('msg').value.trim();
-      const text = encodeURIComponent(`नमस्ते, मेरा नाम ${name} है. ${msg}`);
+      const text = encodeURIComponent(`नमस्ते, मेरा नाम ${GULSHAN} है. ${msg}`);
       if(phone){
         const digits = phone.replace(/\D/g,'');
         window.open(`https://wa.me/${digits}?text=${text}`, '_blank');
