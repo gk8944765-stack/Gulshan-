@@ -1,4 +1,4 @@
- lang="hi">
+ 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -139,7 +139,7 @@
           <p>आपके ब्रांड, प्रोडक्ट और लोकेशन की जानकारी के साथ प्रोफेशनल साइट। WhatsApp/Call बटन शामिल।</p>
         </article>
         <article class="card" role="listitem">
-          <div class="icon" aria-hidden="true">🖼️</div>
+          <div class="icon" aria-hidden="true"></div>
           <h3>पोर्टफोलियो</h3>
           <p>फोटो/प्रोजेक्ट शोकेस करने के लिए साफ़ ग्रिड। Freelancers, फोटोग्राफर्स, आर्टिस्ट्स के लिए बढ़िया।</p>
         </article>
@@ -166,8 +166,8 @@
       <form onsubmit="return sendMessage(event)">
         <div class="field"><label for="name">नाम</label><input id="name" name="name" required placeholder="अपना नाम" /></div>
         <div class="field"><label for="phone">फ़ोन</label><input id="phone" name="phone" placeholder="WhatsApp/मोबाइल" /></div>
-        <div class="field full"><label for="msg">संदेश</label><textarea id="msg" name="message" required placeholder="हमें क्या बनवाना है?"></textarea></div>
-        <div class="field full"><button class="btn primary" type="submit">संदेश भेजें</button> <span class="note">या <a href="https://wa.me/918000000000" target="_blank" rel="noreferrer">WhatsApp पर चैट करें</a></span></div>
+        <div class="field full"><label for="msg">संदेश</label><textarea id="msg" name="message" required placeholder="क्या ऑर्डर करना चाहते हैं ?"></textarea></div>
+        <div class="field full"><button class="btn primary" type="submit">संदेश भेजें</button> <span class="note">या <a href="https://wa.me/91 8521412902" target="_blank" rel="noreferrer">WhatsApp पर चैट करें</a></span></div>
       </form>
     </section>
   </main>
@@ -187,7 +187,7 @@
     }
 
     // Simple contact via WhatsApp (falls back to mailto if no phone)
-    function sendMessage(e){
+    function sendMessage(e){ 8521412902}
       e.preventDefault();
       const name = Gulshan document.getElementById('name').value.trim();
       const phone = +918521412902 document.getElementById('phone').value.trim();
@@ -206,4 +206,4 @@
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
 </body>
-</html>
+
